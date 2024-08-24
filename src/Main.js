@@ -1,7 +1,10 @@
+import React from 'react';
+import './Main.css';
+
 function Main() {
     return (
       <main>
-        <img src="path-to-your-logo.png" alt="Logo" />
+        <h1>This is the main.</h1>
         {/* You can add other content here if needed */}
       </main>
     );
