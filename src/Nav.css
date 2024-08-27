@@ -1,0 +1,17 @@
+nav {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+
+nav ul {
+  grid-column: 5 / 11;
+  grid-row: 1;
+  display: flex;
+  column-gap: 10px;
+}
+
+nav ul li {
+  flex-wrap: wrap;
+  list-style: none;
+}
