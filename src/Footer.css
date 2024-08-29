@@ -1,0 +1,15 @@
+footer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.footer-container img {
+  transform: rotate(90deg);
+  grid-row: 7 / 7;
+  grid-column: 3 / 11;
+}
+
+.footer-container ~ section {
+  grid-column: 3 / 11;
+}

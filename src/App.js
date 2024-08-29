@@ -14,7 +14,9 @@ function App() {
         </nav>
       </header>
       <Main />
-      <Footer />
+      <footer className='footer-container'>
+          <Footer />
+      </footer>
     </>
   );
 }
