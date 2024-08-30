@@ -7,7 +7,7 @@ function Footer() {
         <image className='footer-logo'>
           <img src="/Logo.svg" alt="Logo" />
         </image>
-        <section className='doormat-nav'>
+        <section id='doormat-nav'>
           <strong>Doormat Navigation</strong>
           <ul>
             <li><a href="#/home">Home</a></li>
@@ -18,7 +18,7 @@ function Footer() {
             <li><a href="#/login">Login</a></li>
           </ul>
         </section>
-        <section className='footer-contact'>
+        <section id='footer-contact'>
           <strong>Contact</strong>
           <address>
             <p><a href="#/contact">123 Main St. Longmont, Colorado 80501</a></p>
@@ -26,7 +26,7 @@ function Footer() {
             <p><a href="mailto:contact@example.com">contact@example.com</a></p>
           </address>
         </section>
-        <section className='footer-social'>
+        <section id='footer-social'>
           <strong>Social Media Link</strong>
           <ul>
             <li><a href="#/facebook">Facebook</a></li>

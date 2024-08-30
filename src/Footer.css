@@ -1,16 +1,24 @@
 .footer-container footer {
   display: grid;
+  background-color: #EE9972;
   grid-template-columns: repeat(12, 1fr);
   /*grid-template-rows: repeat(1, 1fr);*/
 }
 
 .footer-container footer image {
-  transform: rotate(90deg);
-  transform-origin: 25% 30%;
   grid-column: 3 / 5;
+  transform: rotate(90deg);
+  transform-origin: 15% 20%;
 }
 
-.footer-container footer section {
-  grid-column: 5 / 11;
-  width: fit-content;
+#doormat-nav {
+  grid-column: 5 / 7;
+}
+
+#footer-contact {
+  grid-column: 7 / 9;
+}
+
+#footer-social {
+  grid-column: 9 / 11;
 }
