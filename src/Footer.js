@@ -4,9 +4,9 @@ import './Footer.css';
 function Footer() {
     return (
       <footer>
-        <section className='footer-logo'>
+        <image className='footer-logo'>
           <img src="/Logo.svg" alt="Logo" />
-        </section>
+        </image>
         <section className='doormat-nav'>
           <strong>Doormat Navigation</strong>
           <ul>

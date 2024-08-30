@@ -1,15 +1,16 @@
-footer {
+.footer-container footer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  /*grid-template-rows: repeat(1, 1fr);*/
 }
 
-.footer-container img {
+.footer-container footer image {
   transform: rotate(90deg);
-  grid-row: 7 / 7;
-  grid-column: 3 / 11;
+  transform-origin: 25% 30%;
+  grid-column: 3 / 5;
 }
 
-.footer-container ~ section {
-  grid-column: 3 / 11;
+.footer-container footer section {
+  grid-column: 5 / 11;
+  width: fit-content;
 }
