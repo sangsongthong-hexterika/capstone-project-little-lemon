@@ -15,10 +15,22 @@
   grid-column: 5 / 7;
 }
 
+#doormat-nav ul li {
+  list-style: none;
+}
+
+#doormat-nav strong {
+  font-family: karla;
+}
+
 #footer-contact {
   grid-column: 7 / 9;
 }
 
 #footer-social {
   grid-column: 9 / 11;
+}
+
+#footer-social ul li {
+  list-style: none;
 }

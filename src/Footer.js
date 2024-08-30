@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
       <footer>
-        <image className='footer-logo'>
+        <image>
           <img src="/Logo.svg" alt="Logo" />
         </image>
         <section id='doormat-nav'>

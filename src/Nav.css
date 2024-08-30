@@ -1,5 +1,21 @@
+/*
+.header-container {
+  grid-template-columns: repeat(12, 1fr);
+  background-color: #EE9972;
+  grid-auto-flow: column;
+}
+
+.header-container ul li {
+  grid-column: 5 / 11;
+  list-style: none;
+  grid-auto-flow: column;
+}
+*/
+
 nav {
   display: flex;
+  background-color: #EE9972;
+  width: 100%;
 }
 nav ul {
   display: flex;
@@ -15,6 +31,6 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none;
   justify-content: space-evenly;
+  column-gap: 1rem;
 }
